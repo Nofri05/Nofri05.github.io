@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Sans-Serif;
+}
+
+nav{
+  
+}
+nav h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #1877f2;
+  font-size: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form .nomor {
+  padding: 0.9rem;
+  background-color: #f5f6f7;
+  border: 1.5px solid #eaeaea;
+  border-radius: 0.4rem;
+  position: relative;
+  top: -1rem;
+}
+
+.form .password {
+  padding: 0.9rem;
+  background-color: #f5f6f7;
+  border: 1.5px solid #eaeaea;
+  position: relative;
+  top: -0.5rem;
+  border-radius: 0.4rem;
+}
+
+.form .masuk {
+  position: relative;
+  top: rem;
+  padding: 0.7rem;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.fp p {
+  text-align: center;
+}
+
+.fp p a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.stripe {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  top: 30px;
+}
+
+.stripe .garis1 { 
+  width: 38%;
+  height: 0.1rem;
+  background-color: #eaeaea;
+}
+
+.stripe .garis2 { 
+  width: 38%;
+  height: 0.1rem;
+  background-color: #eaeaea;
+}
+
+.stripe p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: -9px;
+}
+
+.pp {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0.2rem;
+}
+
+.pp button {
+  width: 70%;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
